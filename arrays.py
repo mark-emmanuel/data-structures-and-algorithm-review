@@ -21,3 +21,6 @@ numbers.append(2)  # add's two to the end of the list
 numbers.append(200)
 len(numbers)
 print(numbers)
+
+# adding a new list
+numbers.extend([4, 5, 6])  # adds 4,5,6 to the previous list
