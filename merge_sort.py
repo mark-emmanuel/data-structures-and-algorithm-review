@@ -54,4 +54,11 @@ def merge(left,right):
     while j < len(right):
         l.append(right[j])
         j += 1
+    
+    return l
+
+
+alist = [54,62,93,17,77,31,44,55,20]
+l = merge_sort(alist)
+print(l)
 
